@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.boss {
+  display: flex;
+}
+
+.first-column {
+  background-color: #e28525;
+  padding: 2em;
+  width: 33.33%;
+}
+
+.first-column h2 {
+  font-size: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  color: white;
+  font: x-small;
+}
+
+.first-column button {
+  border-radius: 15px;
+  color: #e28525;
+  padding: 1em;
+  border: none;
+}
+
+.first-column .top-p {
+  font-size: 15px;
+  float: left;
+  color: white;
+  padding-bottom: 1pc;
+}
+.first-column .content {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: white;
+  font: x-small;
+  padding-top: 1pc;
+  padding-bottom: 3pc;
+}
+
+.second-column {
+  background-color: #016972;
+  padding: 2em;
+  width: 33.33%;
+}
+
+.second-column button {
+  border-radius: 15px;
+  color: #016972;
+  padding: 1em;
+  border: none;
+}
+
+.second-column h2 {
+  font-size: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  color: white;
+  font: x-small;
+}
+
+.second-column .top-p {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 1pc;
+}
+.second-column .content {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: white;
+  font: x-small;
+  padding-top: 1pc;
+  padding-bottom: 3pc;
+}
+
+.third-column {
+  background-color: #00403f;
+  padding: 2em;
+  width: 33.33%;
+}
+
+.third-column button {
+  border-radius: 15px;
+  color: #00403f;
+  padding: 1em;
+  border: none;
+}
+
+.third-column h2 {
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 700;
+  color: white;
+  font: x-small;
+}
+
+.third-column .top-p {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 1pc;
+}
+.third-column .content {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: white;
+  font: x-small;
+  padding-top: 1pc;
+  padding-bottom: 3pc;
+}
+
+img {
+    max-width: 70px;
+    max-height: 50px;
+}
